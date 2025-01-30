@@ -1,7 +1,9 @@
 # Vienna LaRose, Variables Notes
 
-name = input("Please tell me your name: ")
+name = "Vienna is my name"
 
-print(name+ ", welcome to my program.")
+subject = "CSP"
+
+print(name)
 
 print("It doesn't do anything yet")
