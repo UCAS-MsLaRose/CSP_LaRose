@@ -1,6 +1,6 @@
 # Vienna LaRose, Variables Notes
 
-name = "Vienna is my name"
+name = "Vienna"
 
 name_new = "purple"
 
