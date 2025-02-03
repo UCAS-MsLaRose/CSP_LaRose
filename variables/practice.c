@@ -1,4 +1,4 @@
-//Vienna LaRose, Template 
+//Vienna LaRose, Variables Practice
 #include <stdio.h>
 
 int main(void){
