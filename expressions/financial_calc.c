@@ -2,6 +2,6 @@
 #include <stdio.h>
 
 int main(void){
-    printf("Hello World");
+    // introduce user to program
     return 0;
 }
