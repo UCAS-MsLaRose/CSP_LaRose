@@ -8,5 +8,10 @@
 
 sentence = "The quick brown fox jumps over the lazy dog."
 
-print(sentence.find("fox"))
-
+word = sentence.find("fox")
+#print(sentence[4:9])
+#print(len(sentence))
+#name = "LaRose"
+#print(f"Welcme to the program {name}!")
+percent = 89
+print(f"Your grade is {percent:.1f}")
