@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<!-- saved from url=(0046)http://127.0.0.1:5500/html_advanced/notes.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+        <title>html advanced notes</title>
+    </head>
+    <body>
+        <h1>HTML Advanced Notes</h1>
+        <p>Nesting an html tag is putting it inside of another one</p>
+        <ol>
+            <li>li tags must be nested</li>
+            <li>What appears on the webpage is nested in the body tag</li>
+        </ol>
+        <ul>
+            <li>Butterfinger</li>
+            <li>Crunch</li>
+            <li>100 Grand</li>
+        </ul>
+        <dl>
+            <dt>Aang</dt>
+            <img src="./html advanced notes_files/0_3xTjr7rYOjGYjKqi.jpg" alt="Aang trying to barter" height="100px">
+            <dd>The last airbender. The avatar. . . kinda a dork</dd>
+            <dt>Katara</dt>
+            <dd>Water bender. From the South pole. Gives speaches about hope all the time. . . </dd>
+        </dl>
+        <p>An attribute is additional information given to the computer inside of the opening tag</p>
+        <a href="https://www.w3schools.com/html/html_attributes.asp" target="_blank">attributes</a>
+        <br>
+        <a href="https://www.w3schools.com/html/html_links.asp" target="_blank">links</a>
+    <!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body><div scrible-ignore="" id="skribel__annotation_ignore_browserExtensionFlag" class="skribel__chromeExtension" style="display: none;"></div></html>
