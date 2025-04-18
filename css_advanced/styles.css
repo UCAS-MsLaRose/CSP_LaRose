@@ -1,0 +1,40 @@
+*{
+    background-color: antiquewhite;
+    color: chocolate;
+    font-family: "Bonheur Royale", cursive;
+    font-weight: 400;
+    font-style: normal;
+    /*
+    1. serif 
+    2. sans-serif
+    3. monosapce
+    4. cursive
+    5. fantasy */
+}
+img{
+    height: 150px;
+}
+#box{
+    background-color: rgba(243, 148, 214, 0.634);
+    height: 75px;
+    width: 75px;
+    border-radius: 3px;
+    padding: 5px;
+    margin: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#content{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-column-gap: 5px;
+}
+#top-boxes{
+    display: flex;
+    flex-wrap: wrap;
+}
+#img-wrapper{
+    display: flex;
+    justify-content: center;
+}
